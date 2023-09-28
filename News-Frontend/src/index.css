@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Rubik:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #F0F0ED;
+
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --logo-font-family:'Rowdies', cursive;
+  --primary-font-family: 'Rubik', sans-serif;
+
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
