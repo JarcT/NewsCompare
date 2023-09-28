@@ -4,6 +4,7 @@ const DailyScreenshots = require('./models/DailyScreenshotsSchema.js')
 const ArchiveByName = require('./models/ArchiveByNameSchema.js')
 const ArchiveByDate = require('./models/ArchiveByDateSchema.js')
 const connectDB = require('./connectDB/connect.js')
+cosnt cron = require('cron')
 
 const screen = async() => {
     
