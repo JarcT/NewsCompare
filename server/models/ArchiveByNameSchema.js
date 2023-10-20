@@ -1,12 +1,12 @@
-const { default: mongoose } = require("mongoose")
+const { default: mongoose } = require("mongoose");
 
 const ArchiveByName = new mongoose.Schema({
-    name: {
-        type: String,
-    },
-    oldScreenshot: {
-        type: Array
-    },
-})
+  name: {
+    type: String,
+  },
+  oldScreenshot: {
+    type: Array,
+  },
+});
 
-module.exports = mongoose.model('ArchiveByName', ArchiveByName)
+module.exports = mongoose.model("ArchiveByName", ArchiveByName);

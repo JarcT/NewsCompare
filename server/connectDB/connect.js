@@ -1,7 +1,7 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
 const connectDB = async (connectString) => {
-    return await mongoose.connect(connectString)
-} 
+  return await mongoose.connect(connectString);
+};
 
-module.exports = connectDB
+module.exports = connectDB;
