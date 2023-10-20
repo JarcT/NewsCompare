@@ -1,4 +1,4 @@
-// const CronJob = require("../lib/cron.js").CronJob;
+// const CronJob = require('../lib/cron.js').CronJob;
 screenShot = require("./screenShootFn.js");
 const DailyScreenshots = require("./models/DailyScreenshotsSchema.js");
 const ArchiveByName = require("./models/ArchiveByNameSchema.js");
